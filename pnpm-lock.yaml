@@ -12,6 +12,7 @@ specifiers:
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
   modern-normalize: ^1.1.0
+  pkce-gen: ^1.1.0
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.8.1
   sass: ^1.57.1
@@ -27,6 +28,7 @@ dependencies:
   '@fontsource/metropolis': 4.5.3
   '@unsass/breakpoint': 2.2.0
   modern-normalize: 1.1.0
+  pkce-gen: 1.1.0
 
 devDependencies:
   '@playwright/test': 1.30.0
@@ -1410,6 +1412,10 @@ packages:
   /picomatch/2.3.1:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
+
+  /pkce-gen/1.1.0:
+    resolution: {integrity: sha512-pCXX7hcHBW4Cqvu8bSN/5+NLDNOg61VqiK9/1JSfppUHyTPuaNmZo8T8tydj0/AVlaDQpAB9+6iwCOT6yI7xsQ==}
+    dev: false
 
   /playwright-core/1.30.0:
     resolution: {integrity: sha512-7AnRmTCf+GVYhHbLJsGUtskWTE33SwMZkybJ0v6rqR1boxq2x36U7p1vDRV7HO2IwTZgmycracLxPEJI49wu4g==}
