@@ -28,7 +28,7 @@ export const GET: RequestHandler = ({ cookies }) => {
 			response_type: 'code',
 			client_id: SPOTIFY_APP_CLIENT_ID,
 			scope,
-			redirect_url: `${BASE_URL}/api/auth/callback`,
+			redirect_uri: `${BASE_URL}/api/auth/callback`,
 			state,
 			code_challenge_method: 'S256',
 			code_challenge: challenge.code_challenge
