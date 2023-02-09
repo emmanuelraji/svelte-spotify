@@ -31,7 +31,7 @@
 			<div
 				class="topbar-bg"
 				style:background-color="var(--header-color)"
-				style:opacity={headerOpacity}
+				style:opacity={`${headerOpacity}`}
 			/>
 		</div>
 		<main id="main-content" class:logged-in={user}>
